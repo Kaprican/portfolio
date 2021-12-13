@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Kaprican's portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header__inner">
+        <nav>
+            <a href="#about">About me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <div class="hamburger">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+    
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#about">About me</a></li>
+                <li><a class="menu__item" href="#portfolio">Portfolio</a></li>
+                <li><a class="menu__item" href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </div> 
+</header>
+<main>
+    <section id="first">
+        <h1>Anastasia Iljushchenko, Front-end developer</h1>
+    </section>
+    <section id="about">
+        <div class="about__inner">
+            <h1>About me</h1>
+            <div class="about__inner__description">
+                <div>
+                    <h2>Hi, I’m Nastya!</h2>
+                    <p>I am a front-end developer from Yekaterinburg.</p>
+                    <p>Previously, I worked as a systems analyst. But I realized that I am a strong visual, so I decided to retrain. I already had an understanding of what team development is and how they work. And I had general knowledge about IT too because I  was graduated as a software engineer. So, all that remained was to improve some hard skills.</p>
+                    <p>I still have communication skills and a love for the product approach from the previous work experience. I like to see the result of my work as well as understand for whom and why I am doing something.</p>
+                </div>
+                <img src="./img/photo.jpeg">
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="portfolio__inner">
+            <h1>Portfolio</h1>
+            <div class="case_container">
+                <div id="case-converter" class="case">
+                    <div class="case_description">
+                        <h2>Case converter</h2>
+                        <p>An app for text editing. Allows you convert text case.</p>
+                        <a href="https://kaprican.github.io/case-converter/" class="button">Website</a>
+                        <a href="https://github.com/Kaprican/case-converter" class="button">GitHub</a>
+                    </div>
+                </div>
+                <div id="to-do-list" class="case">
+                    <div class="case_description">
+                        <h2>To-do list</h2>
+                        <p>Simple To-do list. Task list stores in browser.</p>
+                        <a href="https://kaprican.github.io/to-do-list/" class="button">Website</a>
+                        <a href="https://github.com/Kaprican/to-do-list" class="button">GitHub</a>
+                    </div>
+                </div>
+                <div id="virtual-piano" class="case">
+                    <div class="case_description">
+                        <h2>Virtual piano</h2>
+                        <p>A piano on your computer. Works with keyword keys.</p>
+                        <a href="https://kaprican.github.io/virtual-piano/" class="button">Website</a>
+                        <a href="https://github.com/Kaprican/virtual-piano" class="button">GitHub</a>
+                    </div>
+                </div>
+                <div id="course-landing" class="case">
+                    <div class="case_description">
+                        <h2>Landing page</h2>
+                        <p>Landing page for PiedPiper, a fake product from series "Silicon Valley".</p>
+                        <a href="https://kaprican.github.io/landing-markup/" class="button">Website</a>
+                        <a href="https://github.com/Kaprican/landing-markup" class="button">GitHub</a>
+                    </div>
+                </div>
+                <div id="flashcards" class="case">
+                    <div class="case_description">
+                        <h2>Flashcards</h2>
+                        <p>Flashcards for memory training. There are country name on the front side and the capital name on the back side.</p>
+                        <a href="https://kaprican.github.io/Flashcards/" class="button">Website</a>
+                        <a href="https://github.com/Kaprican/Flashcards" class="button">GitHub</a>
+                    </div>
+                </div>
+                <div id="open-space" class="case">
+                    <div class="case_description">
+                        <h2>Open space simulator</h2>
+                        <p>Simple game. Allows you to launch a rocket into open space.</p>
+                        <a href="https://kaprican.github.io/open-space/" class="button">Website</a>
+                        <a href="https://github.com/Kaprican/open-space" class="button">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <section id="contacts" class="contacts">
+        <div class="contacts__inner">
+            <a href="mailto:nastya.ilju@yandex.ru">
+                <svg class="icon" width="46" height="46" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.5849 45.1715H22.6989C23.8432 45.1715 24.7708 44.2439 24.7708 43.0996V42.9857C24.7708 41.7785 23.7921 40.7998 22.5849 40.7998V40.7998C17.7544 40.7998 13.1216 38.8808 9.70535 35.4651C6.28965 32.0489 4.37065 27.4161 4.37065 22.5855C4.37065 17.755 6.28965 13.1222 9.70535 9.70595C13.1216 6.29025 17.7544 4.37125 22.5849 4.37125C27.4155 4.37125 32.0483 6.29025 35.4645 9.70595C38.8802 13.1222 40.7992 17.755 40.7992 22.5855V25.4996C40.7992 26.8011 40.105 28.004 38.9778 28.6545C37.8506 29.3056 36.4621 29.3056 35.3349 28.6545C34.2077 28.004 33.5135 26.8011 33.5135 25.4996V23.3142H33.4769C33.4769 23.0738 33.5135 22.8335 33.5135 22.5855C33.5252 19.153 31.9294 15.9132 29.2004 13.8305C26.4717 11.7483 22.9255 11.0637 19.6181 11.9811C16.3101 12.8989 13.6232 15.312 12.3568 18.5025C11.0909 21.693 11.3917 25.2922 13.17 28.2281C14.9482 31.164 17.999 33.0978 21.4131 33.4535C24.8267 33.8088 28.2104 32.5454 30.5558 30.0389C31.8568 31.9283 33.9048 33.1694 36.1822 33.4485C38.4595 33.7275 40.7469 33.017 42.4657 31.4969C44.184 29.9773 45.1688 27.7941 45.1709 25.4995V22.5855C45.1709 16.5952 42.7909 10.8504 38.5555 6.61543C34.32 2.37996 28.5752 0 22.5855 0C16.5957 0 10.8504 2.37996 6.61543 6.61543C2.37996 10.8509 0 16.5957 0 22.5855C0 28.5752 2.37996 34.3205 6.61543 38.5555C10.8509 42.791 16.5952 45.1715 22.5849 45.1715ZM22.5849 29.1429C20.8459 29.1429 19.1778 28.4518 17.9485 27.2219C16.7186 25.9925 16.0279 24.3245 16.0279 22.5854C16.0279 20.8463 16.7186 19.1783 17.9485 17.949C19.1778 16.7191 20.8459 16.0284 22.5849 16.0284C24.324 16.0284 25.992 16.7191 27.2214 17.949C28.4512 19.1783 29.1419 20.8463 29.1419 22.5854C29.1419 24.3245 28.4513 25.9925 27.2214 27.2219C25.992 28.4517 24.324 29.1429 22.5849 29.1429Z" fill="black"/>
+                </svg>
+            </a>
+            <a href="https://github.com/Kaprican">
+                <svg class="icon" width="45" height="47" viewBox="0 0 45 47" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_3)">
+                        <path d="M43.4453 17.0604C43.4342 14.1254 42.4217 11.282 40.5753 9.00043C41.2021 6.39192 41.0065 3.65338 40.0153 1.16043C39.9189 0.923535 39.7711 0.710975 39.5826 0.538058C39.3941 0.365141 39.1696 0.23617 38.9253 0.160431C38.2253 -0.0795686 35.5753 -0.529569 30.1753 2.97043C27.8529 2.3575 25.4569 2.06811 23.0553 2.11043C20.6504 2.06757 18.2511 2.35697 15.9253 2.97043C10.3853 -0.609569 7.50532 -0.0295691 6.92532 0.140431C6.67967 0.219554 6.45455 0.352034 6.26611 0.528376C6.07766 0.704719 5.93055 0.920558 5.83532 1.16043C4.8417 3.64526 4.63915 6.3762 5.25532 8.98043C3.34857 11.2506 2.33211 14.1364 2.39532 17.1004C2.39532 28.1604 8.72532 31.5004 14.5253 32.6804C14.2276 33.4085 14.0227 34.1712 13.9153 34.9504C13.9049 35.0334 13.9049 35.1174 13.9153 35.2004V38.2604C8.63532 38.7004 7.50532 35.6104 7.39532 35.2604C7.36973 35.1788 7.33969 35.0987 7.30532 35.0204C6.2855 32.9397 4.49029 31.342 2.30532 30.5704C1.86506 30.4232 1.38436 30.457 0.968969 30.6642C0.553576 30.8714 0.237518 31.2352 0.0903225 31.6754C-0.0568726 32.1157 -0.0231456 32.5964 0.184082 33.0118C0.39131 33.4272 0.755063 33.7432 1.19532 33.8904C2.40614 34.3279 3.41589 35.1918 4.03532 36.3204C4.73532 38.5904 7.59532 42.1804 13.8953 41.7804V44.6604C13.8953 45.1246 14.0797 45.5697 14.4079 45.8979C14.7361 46.2261 15.1812 46.4104 15.6453 46.4104C16.1094 46.4104 16.5546 46.2261 16.8828 45.8979C17.2109 45.5697 17.3953 45.1246 17.3953 44.6604V35.3304C17.5281 34.3116 17.9715 33.3583 18.6653 32.6004C18.9084 32.3729 19.081 32.0805 19.1629 31.7578C19.2447 31.4351 19.2322 31.0957 19.1269 30.7799C19.0217 30.4641 18.828 30.1851 18.5689 29.976C18.3099 29.767 17.9963 29.6366 17.6653 29.6004C11.5653 28.8904 5.92532 26.8804 5.92532 17.0304C5.88478 15.8415 6.09135 14.657 6.532 13.5519C6.97264 12.4469 7.63777 11.4453 8.48532 10.6104C8.71325 10.3651 8.87073 10.0628 8.94113 9.73544C9.01153 9.40807 8.99225 9.06776 8.88532 8.75043C8.29621 7.03858 8.25774 5.18525 8.77532 3.45043C10.9226 3.93522 12.939 4.88031 14.6853 6.22043C14.9097 6.36894 15.1647 6.46494 15.4313 6.5013C15.698 6.53766 15.9694 6.51343 16.2253 6.43043C18.4472 5.75414 20.7636 5.44012 23.0853 5.50043C25.4038 5.43998 27.7169 5.75401 29.9353 6.43043C30.1912 6.51417 30.4627 6.53877 30.7295 6.5024C30.9962 6.46602 31.2512 6.36962 31.4753 6.22043C33.1574 4.93166 35.0826 3.99625 37.1353 3.47043C37.6451 5.22445 37.5997 7.09325 37.0053 8.82043C36.9074 9.10866 36.8873 9.41761 36.947 9.71609C37.0067 10.0146 37.1441 10.292 37.3453 10.5204C39.0008 12.288 39.9385 14.6089 39.9753 17.0304C39.9753 26.8604 34.0453 28.9004 28.2353 29.6004C27.8875 29.6391 27.5594 29.7818 27.2939 30.0099C27.0284 30.2379 26.8379 30.5407 26.7471 30.8788C26.6564 31.2168 26.6697 31.5743 26.7854 31.9047C26.901 32.235 27.1136 32.5228 27.3953 32.7304C28.0153 33.2004 28.7353 34.5204 28.7353 36.7304V44.6504C28.7353 45.1146 28.9197 45.5597 29.2479 45.8879C29.5761 46.2161 30.0212 46.4004 30.4853 46.4004C30.9494 46.4004 31.3946 46.2161 31.7228 45.8879C32.0509 45.5597 32.2353 45.1146 32.2353 44.6504V36.7304C32.2536 35.3378 31.9988 33.9551 31.4853 32.6604C36.1853 31.6604 43.4453 28.5704 43.4453 17.0604Z" fill="black" stroke="black" stroke-width="0.1"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_3">
+                            <rect width="45" height="47" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/kapricany/?r=nametag">
+                <svg class="icon" width="46" height="46" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M38.3333 0H7.66667C5.63334 0 3.68329 0.807736 2.24551 2.24551C0.807736 3.68329 0 5.63334 0 7.66667L0 38.3333C0 40.3667 0.807736 42.3167 2.24551 43.7545C3.68329 45.1923 5.63334 46 7.66667 46H38.3333C40.3667 46 42.3167 45.1923 43.7545 43.7545C45.1923 42.3167 46 40.3667 46 38.3333V7.66667C46 5.63334 45.1923 3.68329 43.7545 2.24551C42.3167 0.807736 40.3667 0 38.3333 0V0ZM42.1667 38.3333C42.1667 39.35 41.7628 40.325 41.0439 41.0439C40.325 41.7628 39.35 42.1667 38.3333 42.1667H7.66667C6.65 42.1667 5.67498 41.7628 4.95609 41.0439C4.2372 40.325 3.83333 39.35 3.83333 38.3333V7.66667C3.83333 6.65 4.2372 5.67498 4.95609 4.95609C5.67498 4.2372 6.65 3.83333 7.66667 3.83333H38.3333C39.35 3.83333 40.325 4.2372 41.0439 4.95609C41.7628 5.67498 42.1667 6.65 42.1667 7.66667V38.3333Z" fill="black"/>
+                    <path d="M23 11.5C20.7255 11.5 18.5021 12.1745 16.6109 13.4381C14.7198 14.7017 13.2458 16.4978 12.3754 18.5991C11.505 20.7005 11.2772 23.0128 11.721 25.2435C12.1647 27.4743 13.26 29.5234 14.8683 31.1317C16.4766 32.74 18.5257 33.8353 20.7565 34.279C22.9872 34.7228 25.2995 34.495 27.4009 33.6246C29.5022 32.7542 31.2983 31.2802 32.5619 29.3891C33.8255 27.4979 34.5 25.2745 34.5 23C34.5 19.95 33.2884 17.0249 31.1317 14.8683C28.9751 12.7116 26.05 11.5 23 11.5ZM23 30.6667C21.4837 30.6667 20.0014 30.217 18.7406 29.3746C17.4799 28.5322 16.4972 27.3348 15.9169 25.9339C15.3367 24.533 15.1848 22.9915 15.4807 21.5043C15.7765 20.0171 16.5067 18.651 17.5789 17.5788C18.6511 16.5066 20.0171 15.7765 21.5043 15.4806C22.9915 15.1848 24.533 15.3367 25.9339 15.9169C27.3348 16.4972 28.5322 17.4799 29.3746 18.7406C30.217 20.0014 30.6667 21.4837 30.6667 23C30.6667 25.0333 29.8589 26.9834 28.4212 28.4212C26.9834 29.8589 25.0333 30.6667 23 30.6667Z" fill="black"/>
+                    <path d="M35.4583 13.4167C37.0461 13.4167 38.3333 12.1295 38.3333 10.5417C38.3333 8.95385 37.0461 7.66667 35.4583 7.66667C33.8705 7.66667 32.5833 8.95385 32.5833 10.5417C32.5833 12.1295 33.8705 13.4167 35.4583 13.4167Z" fill="black"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
